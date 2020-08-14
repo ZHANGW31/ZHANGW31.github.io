@@ -18,7 +18,7 @@ body {
 
 main {
   height: 45%;
-  max-width: unset;
+  width: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,7 +26,6 @@ main {
   font-size: 3em;
   background-image: url(images/output-onlinepngtools.png);
   background-size: unset;
-
   background-repeat: no-repeat;
   color: white;
   text-shadow: 1px 1px 5px black;
