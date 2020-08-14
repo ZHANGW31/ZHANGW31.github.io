@@ -6,3 +6,8 @@ p {
 body {
   background-color: #005086;
 }
+
+.in-between-space {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
