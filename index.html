@@ -205,8 +205,8 @@
           <div class="col s12 m4">
             <div class="video-container resonsive-video">
               <iframe
-                width="560"
-                height="315"
+                width="600"
+                height="500"
                 src="https://www.youtube.com/embed/qPlUNAI7qV4"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -247,6 +247,10 @@
       <h1 class="header center white-text text-lighten-2 in-between-space">
         More to come!
       </h1>
+
+      <div class="horizontal-parallax-container">
+        <main>Main Content here</main>
+      </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -261,6 +265,19 @@
 
       $(document).ready(function () {
         $(".parallax").parallax();
+      });
+
+      window.addEventListener("scroll", function () {
+        let pageY = window.pageYOffset;
+        let main = document.querySelector("main");
+        main.style.backgroundPosition = `-${pageY * 0.25}px -100px`;
+      });
+    </script>
+    <script>
+      window.addEventListener("scroll", function () {
+        let pageY = window.pageYOffset;
+        let main = document.querySelector("main");
+        main.style.backgroundPosition = `-${pageY * 0.25}px -100px`;
       });
     </script>
   </body>
