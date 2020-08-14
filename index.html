@@ -247,10 +247,10 @@
       <h1 class="header center white-text text-lighten-2 in-between-space">
         More to come!
       </h1>
+    </div>
 
-      <div class="horizontal-parallax-container">
-        <main>Main Content here</main>
-      </div>
+    <div class="horizontal-parallax-container parallax responsive-img">
+      <main>Unleash Your Inner Beast</main>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -270,14 +270,7 @@
       window.addEventListener("scroll", function () {
         let pageY = window.pageYOffset;
         let main = document.querySelector("main");
-        main.style.backgroundPosition = `-${pageY * 0.25}px -100px`;
-      });
-    </script>
-    <script>
-      window.addEventListener("scroll", function () {
-        let pageY = window.pageYOffset;
-        let main = document.querySelector("main");
-        main.style.backgroundPosition = `-${pageY * 0.25}px -100px`;
+        main.style.backgroundPosition = `-${pageY * 0.2}px -100px`;
       });
     </script>
   </body>
