@@ -12,27 +12,14 @@ body {
   margin-bottom: 100px;
 }
 
-.horizontal-parallax-container {
-  height: 300vh;
-}
-
-main {
-  height: 45%;
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Montserrat";
-  font-size: 3em;
-  background-image: url(images/output-onlinepngtools.png);
-  background-size: unset;
-  background-repeat: no-repeat;
-  color: white;
-  text-shadow: 1px 1px 5px black;
+@media only screen and (max-width: 600px) {
+  .parallax-container {
+    height: 250px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-  .parallax-container {
-    height: 150px;
+  .header {
+    font-size: 17px;
   }
 }
