@@ -14,7 +14,7 @@ body {
 
 @media only screen and (max-width: 600px) {
   .parallax-container {
-    height: 275px;
+    height: 200px;
   }
 }
 
