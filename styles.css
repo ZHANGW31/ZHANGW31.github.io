@@ -25,4 +25,9 @@ body {
   h5 {
     font-size: 17px;
   }
+  .responsive-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
