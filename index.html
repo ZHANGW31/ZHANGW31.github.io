@@ -176,10 +176,19 @@
       </div>
     </div>
 
-    <div>
-      <h1 class="header center white-text text-lighten-2 in-between-space">
-        My Experiences! (Content: Work In Progress)
-      </h1>
+    <div class="container section center-align">
+      <h5 class="white-text">2012/08 - 2020/06</h5>
+      <p>United States Marine Corps</p>
+      <h5 class="white-text">More content coming soon!</h5>
+    </div>
+
+    <div class="row">
+      <div class="container">
+        <div class="col s6"></div>
+        <div class="container">
+          <div class="col s6"></div>
+        </div>
+      </div>
     </div>
 
     <div class="parallax-container z-depth-5">
@@ -201,10 +210,17 @@
       </div>
     </div>
 
-    <div>
-      <h1 class="header center white-text text-lighten-2 in-between-space">
-        Places I've been! (Content: Work In Progress)
-      </h1>
+    <div class="container section center-align">
+      <h5 class="white-text">More content coming soon!</h5>
+    </div>
+
+    <div class="row">
+      <div class="container">
+        <div class="col s6"></div>
+      </div>
+      <div class="container">
+        <div class="col s6"></div>
+      </div>
     </div>
 
     <div class="parallax-container z-depth-5">
@@ -222,10 +238,17 @@
       </div>
     </div>
 
-    <div>
-      <h1 class="header center white-text text-lighten-2 in-between-space">
-        Delicious foods I've tried! (Content: Work In Progress)
-      </h1>
+    <div class="container section center-align">
+      <h5 class="white-text">More content coming soon!</h5>
+    </div>
+
+    <div class="row">
+      <div class="container">
+        <div class="col s6"></div>
+      </div>
+      <div class="container">
+        <div class="col s6"></div>
+      </div>
     </div>
 
     <div class="parallax-container z-depth-5">
@@ -262,10 +285,10 @@
         />
       </div>
     </div>
-    <div>
-      <h1 class="header center white-text text-lighten-2 in-between-space">
-        Enjoy some of my favorite videos on Beat Saber!
-      </h1>
+    <div class="container section center-align">
+      <h5 class="white-text">
+        Enjoy some of my favorite Beat Saber VR videos!
+      </h5>
     </div>
 
     <div class="container">
@@ -312,11 +335,6 @@
         </div>
       </div>
     </div>
-    <div>
-      <h1 class="header center white-text text-lighten-2 in-between-space">
-        More to come!
-      </h1>
-    </div>
 
     <br />
     <div class="parallax-container z-depth-5">
@@ -336,6 +354,16 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var elems = document.querySelectorAll(".collapsible");
+        var instances = M.Collapsible.init(elems, options);
+      });
+
+      $(document).ready(function () {
+        $(".collapsible").collapsible();
+      });
+    </script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         var elems = document.querySelectorAll(".parallax");
